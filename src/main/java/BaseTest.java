@@ -21,7 +21,7 @@ public class BaseTest {
     }
     @BeforeClass
     public void openUrl() throws IOException {
-        String url = "https://aiyumi3.github.io/JQuery_t1_KL_borderColform/";
+        String url = "file:///G:/practice/JQuery_t1_KL_borderColform/index.html";  //https://aiyumi3.github.io/JQuery_t1_KL_borderColform/
         driver.get(url);
         System.out.println("открытие сайта завершено");
 
